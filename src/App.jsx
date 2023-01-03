@@ -6,20 +6,18 @@ import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import { useRef } from 'react';
-
-const app = () => {
+const App = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <Footer />
+      <Header/>
+      {/* <Nav/> */} 
+      <About/>
+      <Experience/>
+      <Portfolio/>
+      <Contact/>
+      <Footer/>
     </>
   )
 }
 
-export default app
+export default App

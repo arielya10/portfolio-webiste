@@ -22,8 +22,8 @@ footer a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin:  auto 5 rem;  
-    margin-bottom: 1rem; 
+    margin:  auto 4 rem;  
+    margin-bottom: 4rem; 
 }
 
 .footer__socials{
